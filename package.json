@@ -1,0 +1,31 @@
+{
+  "name": "shakesnippet",
+  "version": "1.0.0",
+  "description": "Provides a randomly chosen Shakespeare excerpt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/shakesnippet.git"
+  },
+  "keywords": [],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/shakesnippet/issues"
+  },
+  "homepage": "https://github.com/jimkang/shakesnippet",
+  "devDependencies": {
+    "get-file-line-offsets-in-json": "^1.0.2",
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "call-next-tick": "^1.1.2",
+    "jsonfile": "^2.2.3",
+    "line-chomper": "^0.5.0",
+    "probable": "^1.7.0"
+  }
+}
